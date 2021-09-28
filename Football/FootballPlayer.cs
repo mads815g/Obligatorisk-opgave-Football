@@ -7,7 +7,7 @@ namespace Football
         private string _name;
         private int _price;
         private int _shirtNumber;
-        public static int NextId = 0;
+        public static int NextId = 1;
         public int Id { get; }
 
         public string Name

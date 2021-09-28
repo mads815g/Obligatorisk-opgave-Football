@@ -19,8 +19,8 @@ namespace Football.Tests
             Assert.AreEqual("Mads", player.Name);
             Assert.AreEqual(1700, player.Price);
             Assert.AreEqual(6, player.ShirtNumber);
-            Assert.AreEqual(0, player.Id);
-            Assert.AreEqual(1, player2.Id);
+            Assert.AreEqual(1, player.Id);
+            Assert.AreEqual(2, player2.Id);
 
             Assert.ThrowsException<ArgumentOutOfRangeException>(
                 () => player.Name = "iii");
